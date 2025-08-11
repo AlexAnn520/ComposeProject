@@ -56,4 +56,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Coil - 推荐的图片加载库
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
+    
+    // Glide - 可选的图片加载库
+    implementation(libs.glide)
+    implementation(libs.glide.compose)
 }
